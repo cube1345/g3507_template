@@ -1,0 +1,182 @@
+T3440 000:006.458   SEGGER J-Link V9.16a Log File
+T3440 000:006.637   DLL Compiled: Feb  6 2026 12:32:34
+T3440 000:006.644   Logging started @ 2026-04-11 05:31
+T3440 000:006.651   Process: E:\EmbeddedDevelopment\SoftWare\Keil5\Keil5_Core\UV4\UV4.exe
+T3440 000:006.664 - 6.658ms 
+T3440 000:006.676 JLINK_SetWarnOutHandler(...)
+T3440 000:006.683 - 0.008ms 
+T3440 000:006.692 JLINK_OpenEx(...)
+T3440 000:013.255   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T3440 000:015.284   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T3440 000:017.960   Hardware: V7.00
+T3440 000:018.016   S/N: 4294967295
+T3440 000:018.036   OEM: SEGGER
+T3440 000:018.068   Feature(s): None
+T3440 000:018.662   Bootloader: (FW returned invalid version)
+T3440 000:022.613   TELNET listener socket opened on port 19021
+T3440 000:022.918   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T3440 000:023.450   WEBSRV Webserver running on local port 19080
+T3440 000:023.735   Looking for J-Link GUI Server exe at: E:\EmbeddedDevelopment\SoftWare\Keil5\Keil5_Core\ARM\Segger\JLinkGUIServer.exe
+T3440 000:023.918   Looking for J-Link GUI Server exe at: E:\EmbeddedDevelopment\SoftWare\Tools\JLink_V916a\JLinkGUIServer.exe
+T3440 000:023.959   Forking J-Link GUI Server: E:\EmbeddedDevelopment\SoftWare\Tools\JLink_V916a\JLinkGUIServer.exe
+T3440 000:063.770   J-Link GUI Server info: "J-Link GUI server V9.16a "
+T3440 000:068.923 - 62.223ms returns "O.K."
+T3440 000:068.964 JLINK_GetEmuCaps()
+T3440 000:068.976 - 0.009ms returns 0x88EA5833
+T3440 000:068.985 JLINK_TIF_GetAvailable(...)
+T3440 000:069.245 - 0.259ms 
+T3440 000:069.288 JLINK_SetErrorOutHandler(...)
+T3440 000:069.296 - 0.008ms 
+T3440 000:069.326 JLINK_ExecCommand("ProjectFile = "E:\EmbeddedDevelopment\WorkSpace\MSPM0G3507\2026secondrace\keil\JLinkSettings.ini"", ...). 
+T3440 000:092.302   Ref file found at: E:\EmbeddedDevelopment\SoftWare\Keil5\Keil5_Core\ARM\Segger\JLinkDevices.ref
+T3440 000:092.408   REF file references invalid XML file: E:\EmbeddedDevelopment\SoftWare\Tools\JLink_V916a\JLinkDevices.xml
+T3440 000:093.856 - 24.530ms returns 0x00
+T3440 000:098.153 JLINK_ExecCommand("Device = MSPM0G3507", ...). 
+T3440 000:104.955   Device "MSPM0G3507" selected.
+T3440 000:105.504 - 7.348ms returns 0x00
+T3440 000:105.543   ERROR: Unknown command
+T3440 000:105.564 JLINK_GetHardwareVersion()
+T3440 000:105.574 - 0.009ms returns 70000
+T3440 000:105.585 JLINK_GetDLLVersion()
+T3440 000:105.593 - 0.008ms returns 91601
+T3440 000:105.604 JLINK_GetOEMString(...)
+T3440 000:105.616 JLINK_GetFirmwareString(...)
+T3440 000:105.625 - 0.009ms 
+T3440 000:125.853 JLINK_GetDLLVersion()
+T3440 000:142.466 - 16.608ms returns 91601
+T3440 000:142.522 JLINK_GetCompileDateTime()
+T3440 000:142.540 - 0.018ms 
+T3440 000:150.991 JLINK_GetFirmwareString(...)
+T3440 000:151.034 - 0.042ms 
+T3440 000:156.829 JLINK_GetHardwareVersion()
+T3440 000:156.860 - 0.031ms returns 70000
+T3440 000:161.189 JLINK_GetSN()
+T3440 000:161.214 - 0.025ms returns -1
+T3440 000:161.222 JLINK_GetOEMString(...)
+T3440 000:168.182 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T3440 000:171.134 - 2.952ms returns 0x00
+T3440 000:171.173 JLINK_HasError()
+T3440 000:171.194 JLINK_SetSpeed(5000)
+T3440 000:171.370 - 0.179ms 
+T3440 000:171.386 JLINK_GetIdData(pIdData)
+T3440 000:175.572   InitTarget() start
+T3440 000:175.595    J-Link Script File: Executing InitTarget()
+T3440 000:199.393   Could not measure total IR len. TDO is constant high.
+T3440 000:215.080   Could not measure total IR len. TDO is constant high.
+T3440 000:254.715   Could not measure total IR len. TDO is constant high.
+T3440 000:273.262   Could not measure total IR len. TDO is constant high.
+T3440 000:347.310   Could not measure total IR len. TDO is constant high.
+T3440 000:367.593   Could not measure total IR len. TDO is constant high.
+T3440 000:399.779   Could not measure total IR len. TDO is constant high.
+T3440 000:422.984   Could not measure total IR len. TDO is constant high.
+T3440 000:470.190   Could not measure total IR len. TDO is constant high.
+T3440 000:498.326   Could not measure total IR len. TDO is constant high.
+T3440 000:519.952   Could not measure total IR len. TDO is constant high.
+T3440 000:529.399   Could not measure total IR len. TDO is constant high.
+T3440 000:545.784   Could not measure total IR len. TDO is constant high.
+T3440 000:564.420   Could not measure total IR len. TDO is constant high.
+T3440 000:595.655   Could not measure total IR len. TDO is constant high.
+T3440 000:633.868   Could not measure total IR len. TDO is constant high.
+T3440 000:652.594   Could not measure total IR len. TDO is constant high.
+T3440 000:664.981   Could not measure total IR len. TDO is constant high.
+T3440 000:675.570   Could not measure total IR len. TDO is constant high.
+T3440 000:684.743   Could not measure total IR len. TDO is constant high.
+T3440 000:698.874   Could not measure total IR len. TDO is constant high.
+T3440 000:722.056   Could not measure total IR len. TDO is constant high.
+T3440 000:736.096   Could not measure total IR len. TDO is constant high.
+T3440 000:762.368   Could not measure total IR len. TDO is constant high.
+T3440 000:775.694   Could not measure total IR len. TDO is constant high.
+T3440 000:818.789   Could not measure total IR len. TDO is constant high.
+T3440 000:842.217   Could not measure total IR len. TDO is constant high.
+T3440 000:857.756   Could not measure total IR len. TDO is constant high.
+T3440 000:882.308   Could not measure total IR len. TDO is constant high.
+T3440 000:902.709   Could not measure total IR len. TDO is constant high.
+T3440 000:937.802   Could not measure total IR len. TDO is constant high.
+T3440 000:948.811   Could not measure total IR len. TDO is constant high.
+T3440 000:960.753   Could not measure total IR len. TDO is constant high.
+T3440 000:978.447   Could not measure total IR len. TDO is constant high.
+T3440 001:025.388   Could not measure total IR len. TDO is constant high.
+T3440 001:053.766   Could not measure total IR len. TDO is constant high.
+T3440 001:064.842   Could not measure total IR len. TDO is constant high.
+T3440 001:084.196   Could not measure total IR len. TDO is constant high.
+T3440 001:095.753   Could not measure total IR len. TDO is constant high.
+T3440 001:118.256   Could not measure total IR len. TDO is constant high.
+T3440 001:142.907   Could not measure total IR len. TDO is constant high.
+T3440 001:162.220   Could not measure total IR len. TDO is constant high.
+T3440 001:181.432   Could not measure total IR len. TDO is constant high.
+T3440 001:198.981   Could not measure total IR len. TDO is constant high.
+T3440 001:209.961   Could not measure total IR len. TDO is constant high.
+T3440 001:221.642   Could not measure total IR len. TDO is constant high.
+T3440 001:249.096   Could not measure total IR len. TDO is constant high.
+T3440 001:264.520   Could not measure total IR len. TDO is constant high.
+T3440 001:274.106   Could not measure total IR len. TDO is constant high.
+T3440 001:313.316   Could not measure total IR len. TDO is constant high.
+T3440 001:341.962   Could not measure total IR len. TDO is constant high.
+T3440 001:360.041   Could not measure total IR len. TDO is constant high.
+T3440 001:372.697   Could not measure total IR len. TDO is constant high.
+T3440 001:384.718   Could not measure total IR len. TDO is constant high.
+T3440 001:395.477   Could not measure total IR len. TDO is constant high.
+T3440 001:415.336   Could not measure total IR len. TDO is constant high.
+T3440 001:441.830   Could not measure total IR len. TDO is constant high.
+T3440 001:454.303   Could not measure total IR len. TDO is constant high.
+T3440 001:654.093   Could not measure total IR len. TDO is constant high.
+T3440 001:670.529   Could not measure total IR len. TDO is constant high.
+T3440 001:703.009   Could not measure total IR len. TDO is constant high.
+T3440 001:739.493   Could not measure total IR len. TDO is constant high.
+T3440 001:779.021   Could not measure total IR len. TDO is constant high.
+T3440 001:802.385   Could not measure total IR len. TDO is constant high.
+T3440 001:822.709   Could not measure total IR len. TDO is constant high.
+T3440 001:838.381   Could not measure total IR len. TDO is constant high.
+T3440 001:866.208   Could not measure total IR len. TDO is constant high.
+T3440 001:882.789   Could not measure total IR len. TDO is constant high.
+T3440 001:895.875   Could not measure total IR len. TDO is constant high.
+T3440 001:914.436   Could not measure total IR len. TDO is constant high.
+T3440 001:940.547   Could not measure total IR len. TDO is constant high.
+T3440 001:960.320   Could not measure total IR len. TDO is constant high.
+T3440 001:971.039   Could not measure total IR len. TDO is constant high.
+T3440 001:983.391   Could not measure total IR len. TDO is constant high.
+T3440 001:994.389   Could not measure total IR len. TDO is constant high.
+T3440 002:007.163   Could not measure total IR len. TDO is constant high.
+T3440 002:029.010   Could not measure total IR len. TDO is constant high.
+T3440 002:045.802   Could not measure total IR len. TDO is constant high.
+T3440 002:064.382   Could not measure total IR len. TDO is constant high.
+T3440 002:086.237   Could not measure total IR len. TDO is constant high.
+T3440 002:125.966   Could not measure total IR len. TDO is constant high.
+T3440 002:154.820   Could not measure total IR len. TDO is constant high.
+T3440 002:185.403   Could not measure total IR len. TDO is constant high.
+T3440 002:195.156   Could not measure total IR len. TDO is constant high.
+T3440 002:216.159   Could not measure total IR len. TDO is constant high.
+T3440 002:226.774   Could not measure total IR len. TDO is constant high.
+T3440 002:238.915   Could not measure total IR len. TDO is constant high.
+T3440 002:276.827   Could not measure total IR len. TDO is constant high.
+T3440 002:290.476   Could not measure total IR len. TDO is constant high.
+T3440 002:320.173   Could not measure total IR len. TDO is constant high.
+T3440 002:330.682   Could not measure total IR len. TDO is constant high.
+T3440 002:371.384   Could not measure total IR len. TDO is constant high.
+T3440 002:385.711   Could not measure total IR len. TDO is constant high.
+T3440 002:404.456   Could not measure total IR len. TDO is constant high.
+T3440 002:457.808   Could not measure total IR len. TDO is constant high.
+T3440 002:482.856   Could not measure total IR len. TDO is constant high.
+T3440 002:497.316   Could not measure total IR len. TDO is constant high.
+T3440 002:498.158   
+  ***** Error: 
+T3440 002:498.190   Communication timed out: Requested 26 bytes, received 0 bytes !
+T3440 002:498.203   
+  ***** Error: 
+T3440 002:498.215   Could not transfer JTAG data.
+T3440 003:000.481   DAP initialized successfully.
+T3440 003:003.097   No PWR-AP detected.
+T3440 003:005.709   InitTarget() end - Took 2.82s
+T3440 003:008.481   Failed to identify target. Resetting via Reset pin and trying again.
+T3440 003:166.791   InitTarget() start
+T3440 003:166.845    J-Link Script File: Executing InitTarget()
+T3440 003:670.497   DAP initialized successfully.
+T3440 003:673.162   No PWR-AP detected.
+T3440 003:675.842   InitTarget() end - Took 506ms
+T3440 003:675.869 - 3504.482ms 
+T11E8 003:676.218   
+  ***** Error: Connection to emulator lost!
+T3440 006:567.798 JLINK_Close()
+T3440 006:580.485 - 12.685ms
+T3440 006:580.531   
+T3440 006:580.542   Closed

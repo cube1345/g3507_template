@@ -1,0 +1,9 @@
+*** Using Compiler 'V6.18', folder: 'D:\Keil_v5-537\ARM\ARMCLANG\Bin'
+Build target 'MSPM0G3507_FreeRTOS'
+Before Build - User command #1: cmd.exe /C "C:\Users\86136\Desktop\first_race\keil\../syscfg.bat 'C:\Users\86136\Desktop\first_race\keil\' empty.syscfg"
+compiling FreeRTOS_demo.c...
+linking...
+Program Size: Code=33672 RO-data=3380 RW-data=140 ZI-data=24284  
+FromELF: creating hex file...
+".\Objects\empty_LP_MSPM0G3507_nortos_keil.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:02

@@ -1,0 +1,3 @@
+Load "C:\\Users\\86136\\Desktop\\first_race\\keil\\Objects\\empty_LP_MSPM0G3507_nortos_keil.axf" 
+Erase Done.Programming Done.Verify OK.Application running ...
+Flash Load finished at 20:28:56

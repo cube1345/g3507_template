@@ -1,0 +1,46 @@
+# ---- 通用忽略 ----
+.DS_Store
+Thumbs.db
+
+# ---- Keil MDK 生成文件（不要进仓库）----
+*.axf
+*.elf
+*.o
+*.d
+*.crf
+*.htm
+*.map
+*.lnp
+*.lst
+*.iex
+*.bak
+*.dep
+*.build_log.htm
+*.uvgui.*
+*.uvguix.*
+
+# MDK-ARM 里编译输出目录
+MDK-ARM/*/Objects/
+MDK-ARM/*/Listings/
+MDK-ARM/*/RTE/
+MDK-ARM/RTE/
+Objects/
+Listings/
+
+# ---- 其它 IDE 配置（看情况要不要）----
+.vscode/
+.idea/
+
+# ---- 一般不忽略的（确保会被跟踪）----
+# 下面这些是给你看的，不要写进 .gitignore 里：
+# Core/*
+# Drivers/*
+# Mid/*
+# MyUsed/*
+# *.uvprojx
+# *.c
+# *.h
+# *.s
+# *.ioc
+# *.mxproject
+
