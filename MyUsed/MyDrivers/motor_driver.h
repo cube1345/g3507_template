@@ -1,12 +1,6 @@
-#ifndef _MOTOR_H
-#define _MOTOR_H
-#include "ti_msp_dl_config.h"
+#ifndef MYUSED_MYDRIVERS_MOTOR_DRIVER_COMPAT_H
+#define MYUSED_MYDRIVERS_MOTOR_DRIVER_COMPAT_H
 
-void Motor_Init();
-int Velocity_A(int TargetVelocity, int CurrentVelocity);
-int Velocity_B(int TargetVelocity, int CurrentVelocity);
-void Set_PWM(int pwma,int pwmb);
-int limit_PWM(int value,int low,int high);
-int motor_apply_deadzone(int pwm);
+#include "../MyFacades/motor_facade.h"
 
-#endif
+#endif /* MYUSED_MYDRIVERS_MOTOR_DRIVER_COMPAT_H */

@@ -1,0 +1,37 @@
+{
+  "taskId": "019dc08a-f53d-708a-80a6-bdb21162c5e5",
+  "todos": [
+    {
+      "id": "8db71abd2bdf6be1e394beec9888237d",
+      "content": "梳理现有 led/key/encoder/buzzer 分层模式与目标模块现状",
+      "status": "completed"
+    },
+    {
+      "id": "fcc1bc3ac25851a1f47de64af9bb771b",
+      "content": "设计 oled/icm42688/xunji/motor/stepper 的 ops、device、board、facade、compat 分层方案",
+      "status": "completed"
+    },
+    {
+      "id": "dca562d84751712c561ee6c367c205ff",
+      "content": "修改 core ops 与目标模块底层驱动封装",
+      "status": "completed"
+    },
+    {
+      "id": "ebff1ea135190545952f9cb12231b090",
+      "content": "新增/调整 board、facade、int/driver 兼容层文件",
+      "status": "completed"
+    },
+    {
+      "id": "10cd1454610e444d163744eca2976570",
+      "content": "编译或语法检查并修复问题",
+      "status": "completed"
+    },
+    {
+      "id": "de62f8e6d3dadb84726449c50e095952",
+      "content": "总结修改内容与注意事项",
+      "status": "completed"
+    }
+  ],
+  "lastUpdated": 1777054214427,
+  "status": "active"
+}
