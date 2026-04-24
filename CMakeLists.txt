@@ -8,6 +8,7 @@ add_definitions(-DMSPM0G3507)
 
 # 💡 核心：把所有包含路径写全
 # 注意：${CMAKE_CURRENT_SOURCE_DIR} 代表当前文件夹
+# 新架构路径优先放在旧路径之前，避免同名兼容壳覆盖 MyDevices 中的真实设备类头文件。
 include_directories(
         "${CMAKE_CURRENT_SOURCE_DIR}/source/third_party/CMSIS/Core/Include"
         "${CMAKE_CURRENT_SOURCE_DIR}/source"

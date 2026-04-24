@@ -603,6 +603,7 @@ void cartask(void *pvParam)
     for (;;) {
 
 
+        Encoder_SyncLegacyCounts();
         g_pwmA = Velocity_A(g_target_speedA, Get_Encoder_countA);
         g_pwmB = Velocity_B(g_target_speedB, Get_Encoder_countB);
         Set_PWM(g_pwmA, g_pwmB);
@@ -613,8 +614,7 @@ void cartask(void *pvParam)
         // printf("EncoderA:%d,EncoderB:%d,PWM_A:%d,PWM_B:%d\r\n",
         //     Get_Encoder_countA,Get_Encoder_countB,g_pwmA,g_pwmB);
 
-        Get_Encoder_countA = 0;
-        Get_Encoder_countB = 0;
+        Encoder_ResetLegacyCounts();
 
         vTaskDelay(pdMS_TO_TICKS(10));
     }

@@ -1,11 +1,6 @@
-#ifndef __ENCODER_DRIVER_H
-#define __ENCODER_DRIVER_H
+#ifndef MYUSED_MYDRIVERS_ENCODER_DRIVER_COMPAT_H
+#define MYUSED_MYDRIVERS_ENCODER_DRIVER_COMPAT_H
 
- #include "../../ti_msp_dl_config.h"
-//#include "ti_msp_dl_config.h"
-
-extern int Get_Encoder_countA,Get_Encoder_countB;
-
-void Encoder_Init(void);
+#include "../MyFacades/encoder_facade.h"
 
 #endif

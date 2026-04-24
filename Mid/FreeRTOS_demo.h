@@ -11,11 +11,11 @@
 #include "OLED_menu.h"
 #include "xunji_driver.h"
 #include "xunji_app.h"
-#include "key_driver.h"
+#include "key_facade.h"
 #include "car_app.h"
 #include "my_math.h"
 #include "usart_app.h"
-#include "encoder_driver.h"
+#include "encoder_facade.h"
 
 void FreeRTOS_Start(void);
 

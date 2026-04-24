@@ -2,41 +2,31 @@
   "taskId": "019dbfbb-b1cc-706c-9d86-e29faecd0ba0",
   "todos": [
     {
-      "id": "512e9385b63002e8c6b54077060fc22e",
-      "content": "规划 LED/Buzzer 按当前 object/base ops/platform 架构的文件职责重组方案",
+      "id": "2472f9b8eef47d1ea336e8ec5197bb4b",
+      "content": "扩展 Core ops，增加 input/counter 行为接口",
       "status": "completed"
     },
     {
-      "id": "1a2d0058f52d359c61aa246c3580f987",
-      "content": "重构 LED 文件架构为 driver + board + facade 分层",
+      "id": "9edd59dae3aa6353642d38f76ff06ff2",
+      "content": "按 MyDevices/MyBoards/MyFacades 重构 Key 并保留兼容接口",
       "status": "completed"
     },
     {
-      "id": "a5dfc1aad1b508a0c2035c2e7331b5be",
-      "content": "重构 Buzzer 文件架构为 driver + board + facade 分层",
+      "id": "ec7089663bb7c2e425ddab9a52dc2c72",
+      "content": "按 MyDevices/MyBoards/MyFacades 重构 Encoder 并保留兼容接口",
       "status": "completed"
     },
     {
-      "id": "a3e08367a1ae500563e1e17db21df864",
-      "content": "检查旧接口兼容性并总结新的文件职责",
+      "id": "a99c7117ef090302136c9060ab0a198b",
+      "content": "更新业务 include 与旧文件兼容壳",
       "status": "completed"
     },
     {
-      "id": "c3eaf442056b970e85a62e37aae35826",
-      "content": "规划并准备目录级架构迁移 MyCore/MyPlatform/MyDevices/MyBoards/MyFacades",
-      "status": "completed"
-    },
-    {
-      "id": "ea314b9fd1768ebf49cc0270b6680431",
-      "content": "执行目录级迁移并更新 include 路径",
-      "status": "completed"
-    },
-    {
-      "id": "9c8f94f7b715a7510ba2c432678a2f23",
-      "content": "检查迁移后的引用关系与兼容入口",
+      "id": "c4f5a367e143977b347cfd67f42aa263",
+      "content": "搜索检查 Key/Encoder 调用链",
       "status": "completed"
     }
   ],
-  "lastUpdated": 1777049848422,
+  "lastUpdated": 1777051754176,
   "status": "active"
 }
